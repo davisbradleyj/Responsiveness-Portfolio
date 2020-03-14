@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Brad Davis</a>
+<!-- Navbar-expand-sm allowed the navbar to collaps to a button toggle at anything less than 740px, such as on any phone or vertical tablets -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand">Brad Davis</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      
+<!-- Initial setup of the navbar did not present any issues, though it took a little experimenting to determine "ml-auto" would set set the links tot he right side of the navbar -->
         <link class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav ml-auto">
+<!-- Navbar link on this page has the "sr-only" class to give it some distinct characteristic, and href="#" -->
             <li class="nav-item">
               <a class="nav-link" href="./index.html">About</a>
             </li>
@@ -23,12 +26,19 @@
               <a class="nav-link" href="#">Portfolio<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact</a>
-              </li>
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
           </ul>
         </link>
     </nav>
     
+    <!-- Container fluid allows the form to fill the viewer, with margins set to allow the majority of the screen to be filled on mobile devices -->
+    <form class="container-fluid mx-1 mt-3">
+        <div class="col-md-auto">
+         <!-- background and text styling present, with a max width of the card set to 24 rem to fill some of tablet, laptop, and desktop screens -->
+         <div class="card bg-light text-muted" style="max-width: 24rem;">
+
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

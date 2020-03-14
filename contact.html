@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
 </head>
 
 <body>
+<!-- Navbar-expand-sm allowed the navbar to collaps to a button toggle at anything less than 740px, such as on any phone or vertical tablets -->
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <a class="navbar-brand">Brad Davis</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      
+<!-- Initial setup of the navbar did not present any issues, though it took a little experimenting to determine "ml-auto" would set set the links tot he right side of the navbar -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
+<!-- Navbar link on this page has the "sr-only" class to give it some distinct characteristic, and href="#" -->
             <li class="nav-item">
               <a class="nav-link" href="./index.html">About</a>
             </li>
@@ -29,11 +32,13 @@
         </div>
     </nav>
 
-
-    <form class="p-5">
-        <div class="card bg-light text-muted" style="max-width: 24rem;">
-        <div class="card-body">
-          <h3 class="card-title">Contact</h3>
+<!-- Container fluid allows the form to fill the viewer, with margins set to allow the majority of the screen to be filled on mobile devices -->
+    <form class="container-fluid mx-1 mt-3">
+        <div class="col-md-auto">
+         <!-- background and text styling present, with a max width of the card set to 24 rem to fill some of tablet, laptop, and desktop screens -->
+         <div class="card bg-light text-muted" style="max-width: 24rem;">
+           <div class="card-body">
+             <h3 class="card-title">Contact</h3>
                 <div class="form-group">
                     <label for="exampleInputName1">Name</label>
                     <input type="name" class="form-control" id="exampleInputName1">
@@ -44,10 +49,12 @@
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
-        </div>
+           </div>
+         </div>
+         </div>
         </div>
     </form>
 
