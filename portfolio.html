@@ -16,7 +16,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 <!-- Initial setup of the navbar did not present any issues, though it took a little experimenting to determine "ml-auto" would set set the links tot he right side of the navbar -->
-        <link class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
 <!-- Navbar link on this page has the "sr-only" class to give it some distinct characteristic, and href="#" -->
             <li class="nav-item">
@@ -29,15 +29,71 @@
               <a class="nav-link" href="./contact.html">Contact</a>
             </li>
           </ul>
-        </link>
+        </div>
     </nav>
     
-    <!-- Container fluid allows the form to fill the viewer, with margins set to allow the majority of the screen to be filled on mobile devices -->
-    <form class="container-fluid mx-1 mt-3">
-        <div class="col-md-auto">
-         <!-- background and text styling present, with a max width of the card set to 24 rem to fill some of tablet, laptop, and desktop screens -->
-         <div class="card bg-light text-muted" style="max-width: 24rem;">
+    <!-- Multiple rows and columns present, with margins set to allow the majority of the screen to be filled on mobile devices -->
+    <!-- Background and text styling present, with a max width of the card set to 28 rem to fill some of tablet, laptop, and desktop screens -->
+    <form class="container mx-1 mt-3">
+       <div class="row">
+        <div class="col-md-4">
+            <div class="card bg-light mb-3" style="max-width: 28rem;">
+               <div class="card-body">
+                <img class="img-thumbnail" src="https://images.pexels.com/photos/39675/rubber-bands-elastic-bands-office-supplies-stationery-39675.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Rubber bands">
+                <div class="card-footer bg-transparent border-light">
+                    <a href="http://davisbradleyj.github.com/Code_Refactor">Code Refactor</a>
+                </div>
+              </div>
+            </div>
+        </div>
             
+        <div class="col-md-4"> 
+            <div class="card bg-light mb-3" style="max-width: 28rem;">
+                <div class="card-body">
+                 <img class="img-thumbnail" src="https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Numerous Screens">
+                 <div class="card-footer bg-transparent border-light">
+                     <a href="http://davisbradleyj.github.com/Responsiveness_Porfolio">Responsiveness Portfolio</a>
+                 </div>
+               </div>
+            </div>
+        </div>
+  
+        <div class="col-md-4">
+            <div class="card bg-light mb-3" style="max-width: 28rem;">
+               <div class="card-body">
+                <img class="img-thumbnail" src="..." alt="Card image">
+                <div class="card-footer bg-transparent border-light">
+                    <a href="http://davisbradleyj.github.com/Code_Refactor">Code Refactor</a>
+                </div>
+              </div>
+            </div>
+        </div>
+       </div> 
+        
+       <div class="row">      
+        <div class="col-md-4">    
+            <div class="card bg-light mb-3" style="max-width: 28rem;">
+                <div class="card-body">
+                 <img class="img-thumbnail" src="..." alt="Card image">
+                 <div class="card-footer bg-transparent border-light">
+                     <a href="http://davisbradleyj.github.com/Code_Refactor">Code Refactor</a>
+                 </div>
+                </div>
+              </div>
+          </div>
+              
+          <div class="col-md-4"> 
+              <div class="card bg-light mb-3" style="max-width: 28rem;">
+                  <div class="card-body">
+                   <img class="img-thumbnail" src="..." alt="Card image">
+                   <div class="card-footer bg-transparent border-light">
+                       <a href="http://davisbradleyj.github.com/Code_Refactor">Code Refactor</a>
+                   </div>
+                 </div>
+              </div>
+          </div>
+         </div>
+       
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
