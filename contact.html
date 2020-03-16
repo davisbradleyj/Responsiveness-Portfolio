@@ -9,31 +9,26 @@
 </head>
 
 <body>
-<!-- Navbar-expand-sm allowed the navbar to collaps to a button toggle at anything less than 740px, such as on any phone or vertical tablets -->
-    <nav class="navbar no-gutters d-flex flex-row justify-content-space-between sticky-top navbar-expand-sm mx-auto m-0 p-0 border-bottom border-secondary header-border" style="border-width: 20px">
+    <header class="navbar d-flex flex-row justify-content-space-between sticky-top navbar-expand-sm mx-auto m-0 p-0 border-bottom border-secondary header-border" style="border-width: 20px">
        <div class="container mx-0 px-0">
          <div class="col-sm-6 text-center navbar-nav justify-content-center pr-0 float-sm-left">
           <a class="navbar-brand text-white px-4 py-3 mb-0 mx-0 bg-info" href=""><h4>Brad Davis</h4></a>
          </div>
        </div> 
-
-       <div class="container"> 
-         <div class="d-flex col-sm-7 navbar ml-auto p-0 text-sm-right justify-content-center">
-           <div><a class="mx-1 text-secondary" href="./index.html">About</a></div>
-           <div><a class="mx-1 text-secondary" href="./portfolio.html">Portfolio</a></div>
-           <div><a class="mx-1 text-secondary" href="#">Contact</a><span class="sr-only">(current)</span></div>
-          </div>
+       <div class="d-flex col-sm-6 p-1 float-sm-right justify-content-center">
+          <div><a class="mx-1 text-secondary" href="./index.html">About</a></div>
+          <div><a class="mx-1 text-secondary" href="./portfolio.html">Portfolio</a></div>
+          <div><a class="mx-1 text-secondary" href="#">Contact</a><span class="sr-only">(current)</span></div>
        </div>
-    </nav>
+    </header>
 
-<!-- Container fluid allows the form to fill the viewer, with margins set to allow the majority of the screen to be filled on mobile devices -->
     <form class="container-auto mx-1 mt-3">
         <div class="col-sm-12 col-md-9 col-lg-8">
          <!-- background and text styling present, with a max width of the card set to 24 rem to fill some of tablet, laptop, and desktop -->
-         <div class="card bg-light text-muted">
+         <div class="card border bg-white">
            <div class="card-body">
              <h3 class="card-title text-info pb-3 mb-0 border-bottom border-secondary">Contact</h3>
-                <div class="form-group">
+                <div class="form-group pt-1">
                     <label for="exampleInputName1">Name</label>
                     <input type="name" class="form-control" id="exampleInputName1">
                 </div>
@@ -45,16 +40,15 @@
                     <label for="exampleFormControlTextarea1">Message</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-info">Submit</button>
            </div>
          </div>
          </div>
-        </div>
     </form>
 
-    <nav class="navbar d-flex flex-row fixed-bottom navbar-light bg-secondary border-top border-info justify-content-center">
+    <footer class="navbar d-flex flex-row fixed-bottom navbar-light bg-secondary border-top border-info justify-content-center">
       <a href="#"><span class="text-light"><small>Copyright 2020</small></span></a>
-    </nav>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
