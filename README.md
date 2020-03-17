@@ -15,6 +15,17 @@ The second snippet is a review of the logic in place to build out the portfolio 
 
 While I had created a css page, I ultimately did not populate it with any tags or further styling, as I was challenging myselft to fully create the page using only the classes and elements available through GetBootstrap.
 
+[add responsive images at various sizes] - sm Index
+[add responsive images at various sizes] - md Index
+[add responsive images at various sizes] - lg Index
+[add responsive images at various sizes] - sm port
+[add responsive images at various sizes] - md port
+[add responsive images at various sizes] - lg port
+[add responsive images at various sizes] - sm contact
+[add responsive images at various sizes] - md contact
+[add responsive images at various sizes] - lg contact
+
+
 ## Code Snippet
 
 ```html
