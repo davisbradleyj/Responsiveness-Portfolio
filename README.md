@@ -13,17 +13,17 @@ For the most part, I was successful.  There appear to be some limitations with t
 
 The second snippet is a review of the logic in place to build out the portfolio screen, with the comments describing some of the rationale behind the choices made, and some ideas for further development as we gain more experience and a better understanding of JS to allow the page get some more punch.
 
-While I had created a css page, I ultimately did not populate it with any tags or further styling, as I was challenging myselft to fully create the page using only the classes and elements available through GetBootstrap.
+I was challenging myself to fully create the page using only the classes and elements available through GetBootstrap, however I found it necessary to add 2 additional styling elements to the page to expand the header and footer border, which are shown below.
 
-[add responsive images at various sizes] - sm Index
-[add responsive images at various sizes] - md Index
-[add responsive images at various sizes] - lg Index
-[add responsive images at various sizes] - sm port
-[add responsive images at various sizes] - md port
-[add responsive images at various sizes] - lg port
-[add responsive images at various sizes] - sm contact
-[add responsive images at various sizes] - md contact
-[add responsive images at various sizes] - lg contact
+! [Index on iPhone] (./images/About - iPhone 6:7:8 414 x 736 .png) - sm Index
+! [Index on iPad] (./images/About - iPad 768 x 1024.png) - md Index
+! [Index on iPad Pro] (./images/About - iPad Pro 1024 x 1366.png) - lg Index
+! [Portfolio on iPhone] (./images/Portfolio - iPhone 6:7:8 414 x 736 .png) - sm portfolio
+! [Portfolio on iPad] (./images/Portfolio - iPad 768 x 1024.png) - md portfolio
+! [Portfolio on iPad Pro] (./images/Portfolio - iPad Pro 1024 x 1366.png) - lg portfolio
+! [Contact on iPhone] (./images/Contact - iPhone 6:7:8 414 x 736 .png) - sm contact
+! [Contact on iPad] (./images/Contact - iPad 768 x 1024.png) - md contact
+! [Contact on iPad Pro] (./images/Contact - iPad Pro 1024 x 1366.png)- lg contact
 
 
 ## Code Snippet
@@ -32,58 +32,57 @@ While I had created a css page, I ultimately did not populate it with any tags o
 
 <!-- This took the most time to figure out, and I basically started from scratch at one point as the design was not allowing me to have the two columns that make up the header stack on each other. I tried to start from the smallest screen level and was satisfied with the alignment of the name header and navigation links - at very wide screen levels, the alignment for the nav links is not fully right justified, but the aesthetics of not having a fully open top bar feels like it has some merit-->
 <body>
-  <header class="navbar d-flex flex-row justify-content-space-between sticky-top navbar-expand-sm mx-auto m-0 p-0 border-bottom border-secondary" style="border-width: 20px">
+  <header class="navbar d-flex flex-row justify-content-space-between sticky-top navbar-expand-sm mx-auto m-0 p-0 bg-white border-bottom border-secondary border-width">
   <!-- The first of much tinkering with margins and padding throughout the document began with the header-->
     <div class="container mx-0 px-0">
       <div class="col-sm-6 text-center navbar-nav justify-content-center pr-0 float-sm-left">
   <!-- Info appears to be the most consistent color choice from the Bootstrap defaults, with white, light, and secondary used as needed for background and text choices throughout document -->
-       <a class="navbar-brand text-white px-4 py-4 mb-0 mx-0 bg-info" href=""><h4>Brad Davis</h4></a>
+        <a class="navbar-brand text-white px-4 py-3 mb-0 mx-0 bg-info" href=""><h4>Brad Davis</h4></a>
       </div>
     </div>  
-      <div class="d-flex col-sm-6 p-1 justify-content-center float-sm-right ">
+    <div class="d-flex col-sm-6 p-1 justify-content-center float-sm-right ">
   <!-- About is a empty link as this is the about page -->
-        <div><a class="mx-1 text-secondary" href="#">About<span class="sr-only">(current)</span></a></div> 
-        <div><a class="mx-1 text-secondary" href="./portfolio.html">Portfolio</a></div>
-        <div><a class="mx-1 text-secondary" href="./contact.html">Contact</a></div>
-       </div>
+      <div><a class="mx-1 text-secondary" href="#">About<span class="sr-only">(current)</span></a></div> 
+      <div><a class="mx-1 text-secondary" href="./portfolio.html">Portfolio</a></div>
+      <div><a class="mx-1 text-secondary" href="./contact.html">Contact</a></div>
     </div>
   </header>
 
-    <!-- Again, I used the Card class base to get a start with the formatting, and again used Picture to work with some of the responsivness -->
-    <form class="container mx-1 mt-3">
+<!-- Again, I used the Card class base to get a start with the formatting, and again used Picture to work with some of the responsivness -->
+    <form class="container mx-1 mt-3 mb-5 pb-4">
         <div class="col">
             <div class="card border bg-white text-muted">
               <div class="px-3 py-3 border bg-white">
                 <h3 class="card-title text-info pb-3 mb-0 border-bottom border-secondary">Portfolio</h3>
     <!-- I chose to set a fixed width to allow the screen to fill up at the largest widths, and still have a nearly full screen at xs/sm levels -->
-                        <picture class="card float-left mt-3 mr-3" style="width: 16rem;">
-                            <img class="img-responsive" style="max-width: 20rem;" src="https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Numerous Screens">
-                            <div class="bg-info text-secondary px-3 py-3 text-center">
+                    <picture class="card float-left mt-3 mr-3" style="width: 16rem;">
+                        <img class="img-responsive" style="max-width: 20rem;" src="https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Numerous Screens">
+                        <div class="bg-info text-secondary px-3 py-3 text-center">
     <!-- All links should be functional and point to previous projects.  The image is related to the specific project to create this page, but I expect I'll make changes when refactoring in the future-->
-                                <a class="text-white" href="https://davisbradleyj.github.io/code-refactor/">Code Refactor</a>
-                            </div>
-                        </picture>
+                            <a class="text-white" href="https://davisbradleyj.github.io/code-refactor/">Code Refactor</a>
+                        </div>
+                    </picture>
 
-                        <picture class="card float-left mt-3 mr-3" style="width: 16rem;">
-                             <img class="img-responsive" style="max-width: 20rem;" src="https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Numerous Screens">
-                             <div class="bg-info text-secondary px-3 py-3 text-center">
-                               <a class="text-white" href="#">Responsiveness Portfolio</a>
-                             </div>
-                        </picture>
-            
-                        <picture class="card float-left mt-3 mr-3" style="width: 16rem;">
-                            <img class="img-responsive" style="max-width: 20rem;" src="https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Numerous Screens">
-                             <div class="bg-info text-secondary px-3 py-3 text-center">
-                                <a class="text-white" href="http://davisbradleyj.github.io/Password_Generator">Password Generator</a>
-                            </div>
-                        </picture>
+                    <picture class="card float-left mt-3 mr-3" style="width: 16rem;">
+                        <img class="img-responsive" style="max-width: 20rem;" src="https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Numerous Screens">
+                        <div class="bg-info text-secondary px-3 py-3 text-center">
+                            <a class="text-white" href="#">Responsiveness Portfolio</a>
+                        </div>
+                    </picture>
+
 
 
 ```
 
 ```css
 
-¯\_(ツ)_/¯
+.border-width {
+    border-width: 2px !important;
+}
+
+.fborder {
+    border-width: 8px !important;
+}
 
 ```
 
