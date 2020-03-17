@@ -15,15 +15,15 @@ The second snippet is a review of the logic in place to build out the portfolio 
 
 I was challenging myself to fully create the page using only the classes and elements available through GetBootstrap, however I found it necessary to add 2 additional styling elements to the page to expand the header and footer border, which are shown below.
 
-! [Index on iPhone] (./images/About - iPhone 6:7:8 414 x 736 .png) - sm Index
-! [Index on iPad] (./images/About - iPad 768 x 1024.png) - md Index
-! [Index on iPad Pro] (./images/About - iPad Pro 1024 x 1366.png) - lg Index
-! [Portfolio on iPhone] (./images/Portfolio - iPhone 6:7:8 414 x 736 .png) - sm portfolio
-! [Portfolio on iPad] (./images/Portfolio - iPad 768 x 1024.png) - md portfolio
-! [Portfolio on iPad Pro] (./images/Portfolio - iPad Pro 1024 x 1366.png) - lg portfolio
-! [Contact on iPhone] (./images/Contact - iPhone 6:7:8 414 x 736 .png) - sm contact
-! [Contact on iPad] (./images/Contact - iPad 768 x 1024.png) - md contact
-! [Contact on iPad Pro] (./images/Contact - iPad Pro 1024 x 1366.png)- lg contact
+! [Index on iPhone] (./About - iPhone 6:7:8 414 x 736 .png) - sm Index
+! [Index on iPad] (./About - iPad 768 x 1024.png) - md Index
+! [Index on iPad Pro] (./About - iPad Pro 1024 x 1366.png) - lg Index
+! [Portfolio on iPhone] (./Portfolio - iPhone 6:7:8 414 x 736 .png) - sm portfolio
+! [Portfolio on iPad] (./Portfolio - iPad 768 x 1024.png) - md portfolio
+! [Portfolio on iPad Pro] (./Portfolio - iPad Pro 1024 x 1366.png) - lg portfolio
+! [Contact on iPhone] (./Contact - iPhone 6:7:8 414 x 736 .png) - sm contact
+! [Contact on iPad] (./Contact - iPad 768 x 1024.png) - md contact
+! [Contact on iPad Pro] (./Contact - iPad Pro 1024 x 1366.png)- lg contact
 
 
 ## Code Snippet
