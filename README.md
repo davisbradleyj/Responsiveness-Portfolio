@@ -16,15 +16,15 @@ The second snippet is a review of the logic in place to build out the portfolio 
 
 I was challenging myself to fully create the page using only the classes and elements available through GetBootstrap, however I found it necessary to add 2 additional styling elements to the page to expand the header and footer border, which are shown below.
 
-! [Index on iPhone] (About_small.png) - sm Index
-! [Index on iPad] (About_md.png) - md Index
-! [Index on iPad Pro] (About_lg.png) - lg Index
-! [Portfolio on iPhone] (Portfolio_small.png) - sm portfolio
-! [Portfolio on iPad] (Portfolio_md.png) - md portfolio
-! [Portfolio on iPad Pro] (Portfolio_lg.png) - lg portfolio
-! [Contact on iPhone] (Contact_small.png) - sm contact
-! [Contact on iPad] (Contact_md.png) - md contact
-! [Contact on iPad Pro] (Contact_lg.png)- lg contact
+! [Index on iPhone] (About_small.png)
+! [Index on iPad] (About_md.png)
+! [Index on iPad Pro] (About_lg.png)
+! [Portfolio on iPhone] (Portfolio_small.png)
+! [Portfolio on iPad] (Portfolio_md.png)
+! [Portfolio on iPad Pro] (Portfolio_lg.png)
+! [Contact on iPhone] (Contact_small.png)
+! [Contact on iPad] (Contact_md.png)
+! [Contact on iPad Pro] (Contact_lg.png)
 
 ## Code Snippet
 
