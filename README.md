@@ -2,6 +2,7 @@
 
 ## Technologies Used
 - HTML - used to create elements on the DOM
+- CSS - used to add some styling elements
 - Bootstrap - used to style the page in place of css
 - Git - version control system to track changes to source code
 - GitHub - hosts repository that can be deployed to GitHub Pages
@@ -19,12 +20,13 @@ I was challenging myself to fully create the page using only the classes and ele
 ! [Index on iPad] (About - iPad 768 x 1024.png) - md Index
 ! [Index on iPad Pro] (About - iPad Pro 1024 x 1366.png) - lg Index
 ! [Portfolio on iPhone] (Portfolio - iPhone 6:7:8 414 x 736 .png) - sm portfolio
-! [Portfolio on iPad] (Portfolio - iPad 768 x 1024.png) - md portfolio
+! [Portfolio on iPad] (https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/About%20-%20iPad%20768%20x%201024.png) - md portfolio
 ! [Portfolio on iPad Pro] (Portfolio - iPad Pro 1024 x 1366.png) - lg portfolio
 ! [Contact on iPhone] (Contact - iPhone 6:7:8 414 x 736 .png) - sm contact
 ! [Contact on iPad] (Contact - iPad 768 x 1024.png) - md contact
 ! [Contact on iPad Pro] (Contact - iPad Pro 1024 x 1366.png)- lg contact
 
+h
 
 ## Code Snippet
 
