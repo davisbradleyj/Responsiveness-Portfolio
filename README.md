@@ -16,7 +16,7 @@ The second snippet is a review of the logic in place to build out the portfolio 
 
 I was challenging myself to fully create the page using only the classes and elements available through GetBootstrap, however I found it necessary to add 2 additional styling elements to the page to expand the header and footer border, which are shown below.
 
-<img src="https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/About_small.png">
+<img src="https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/About_small.png" width="100">
 
 ! [Index on iPhone] (https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/About_small.png)
 ! [Index on iPad] (https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/About_md.png)
