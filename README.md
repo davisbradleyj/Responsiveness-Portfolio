@@ -16,17 +16,15 @@ The second snippet is a review of the logic in place to build out the portfolio 
 
 I was challenging myself to fully create the page using only the classes and elements available through GetBootstrap, however I found it necessary to add 2 additional styling elements to the page to expand the header and footer border, which are shown below.
 
-<img src="https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/About_small.png" width="100">
-
-! [Index on iPhone] (https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/About_small.png)
-! [Index on iPad] (https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/About_md.png)
-! [Index on iPad Pro] (Ahttps://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/bout_lg.png)
-! [Portfolio on iPhone] (https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/Portfolio_small.png)
-! [Portfolio on iPad] (https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/Portfolio_md.png)
-! [Portfolio on iPad Pro] (https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/Portfolio_lg.png)
-! [Contact on iPhone] (https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/Contact_small.png)
-! [Contact on iPad] (https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/Contact_md.png)
-! [Contact on iPad Pro] (https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/Contact_lg.png)
+<img src="https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/About_small.png" width="200">
+<img src="https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/About_md.png" width="300">
+<img src="https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/bout_lg.png" width="400">
+<img src="https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/Portfolio_small.png" width="200">
+<img src="https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/Portfolio_md.png" width="300">
+<img src="https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/Portfolio_lg.png" width="400">
+<img src="https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/Contact_small.png" width="200">
+<img src="https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/Contact_md.png" width="300">
+<img src="https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/Contact_lg.png" width="400">
 
 ## Code Snippet
 
