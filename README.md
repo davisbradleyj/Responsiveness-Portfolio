@@ -18,7 +18,7 @@ I was challenging myself to fully create the page using only the classes and ele
 
 <img src="https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/About_small.png" width="200">
 <img src="https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/About_md.png" width="300">
-<img src="https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/bout_lg.png" width="400">
+<img src="https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/About_lg.png" width="400">
 <img src="https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/Portfolio_small.png" width="200">
 <img src="https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/Portfolio_md.png" width="300">
 <img src="https://github.com/davisbradleyj/Responsiveness-Portfolio/blob/master/Portfolio_lg.png" width="400">
