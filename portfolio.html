@@ -1,88 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
 </head>
 
 <!-- See index.html for comments related to header -->
+
 <body>
-  <header class="navbar d-flex flex-row justify-content-space-between sticky-top navbar-expand-sm mx-auto m-0 p-0 bg-white border-bottom border-secondary border-width">
+  <header
+    class="navbar d-flex flex-row justify-content-space-between sticky-top navbar-expand-sm mx-auto m-0 p-0 bg-white border-bottom border-secondary border-width">
     <div class="container mx-0 px-0">
       <div class="col-sm-6 text-center navbar-nav justify-content-center pr-0 float-sm-left">
-        <a class="navbar-brand text-white px-4 py-3 mb-0 mx-0 bg-info" href=""><h4>Brad Davis</h4></a>
+        <a class="navbar-brand text-white px-4 py-3 mb-0 mx-0 bg-info" href="">
+          <h4>Brad Davis</h4>
+        </a>
       </div>
     </div>
     <div class="d-flex col-sm-6 p-1 justify-content-center float-sm-right">
       <div><a class="mx-1 text-secondary" href="./index.html">About</a></div>
-    <!-- Portfolio is a empty link as this is the portfolio page -->
-      <div><a class="mx-1 text-secondary" href="#">Portfolio<span class="sr-only">(current)</span></a></div> 
+      <!-- Portfolio is a empty link as this is the portfolio page -->
+      <div><a class="mx-1 text-secondary" href="#">Portfolio<span class="sr-only">(current)</span></a></div>
       <div><a class="mx-1 text-secondary" href="./contact.html">Contact</a></div>
     </div>
   </header>
-    
-    <!-- Again, I used the Card class base to get a start with the formatting, and again used Picture to work with some of the responsivness -->
-    <form class="container mx-1 mt-3 mb-5 pb-4">
-        <div class="col">
-            <div class="card border bg-white text-muted">
-              <div class="px-3 py-3 border bg-white">
-                <h3 class="card-title text-info pb-3 mb-0 border-bottom border-secondary">Portfolio</h3>
-    <!-- I chose to set a fixed width to allow the screen to fill up at the largest widths, and still have a nearly full screen at xs/sm levels -->
-                        <picture class="card float-left mt-3 mr-3" style="width: 16rem;">
-                            <img class="img-responsive" style="max-width: 20rem;" src="https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Numerous Screens">
-                            <div class="bg-info text-secondary px-3 py-3 text-center">
-    <!-- All links should be functional and point to previous projects.  The image is related to the specific project to create this page, but I expect I'll make changes when refactoring in the future-->
-                                <a class="text-white" href="https://davisbradleyj.github.io/code-refactor/">Code Refactor</a>
-                            </div>
-                        </picture>
 
-                        <picture class="card float-left mt-3 mr-3" style="width: 16rem;">
-                             <img class="img-responsive" style="max-width: 20rem;" src="https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Numerous Screens">
-                             <div class="bg-info text-secondary px-3 py-3 text-center">
-                               <a class="text-white" href="#">Responsiveness Portfolio</a>
-                             </div>
-                        </picture>
-            
-                        <picture class="card float-left mt-3 mr-3" style="width: 16rem;">
-                            <img class="img-responsive" style="max-width: 20rem;" src="https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Numerous Screens">
-                             <div class="bg-info text-secondary px-3 py-3 text-center">
-                                <a class="text-white" href="http://davisbradleyj.github.io/Password_Generator">Password Generator</a>
-                            </div>
-                        </picture>
-                           
-                        <picture class="card float-left mt-3 mr-3" style="width: 16rem;">
-                             <img class="img-responsive" style="max-width: 20rem;" src="https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Numerous Screens">
-                             <div class="bg-info text-secondary px-3 py-3 text-center">
-                                <a class="text-white" href="http://davisbradleyj.github.io/Day_Planner">Day Planner</a>
-                            </div>
-                        </picture>
-
-                        <picture class="card float-left mt-3 mr-3" style="width: 16rem;">
-                            <img class="img-responsive" style="max-width: 20rem;" src="https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Numerous Screens">
-                            <div class="bg-info text-secondary px-3 py-3 text-center">
-                                <a class="text-white" href="http://davisbradleyj.github.io/Weather_Dashboard">Weather Dashboard</a>
-                            </div>
-                        </picture>
-                    
-              </div>
+  <!-- Again, I used the Card class base to get a start with the formatting, and again used Picture to work with some of the responsivness -->
+  <form class="container mx-1 mt-3 mb-5 pb-4">
+    <div class="col">
+      <div class="card border bg-white text-muted">
+        <div class="px-3 py-3 border bg-white">
+          <h3 class="card-title text-info pb-3 mb-0 border-bottom border-secondary">Portfolio</h3>
+          <!-- I chose to set a fixed width to allow the screen to fill up at the largest widths, and still have a nearly full screen at xs/sm levels -->
+          <picture class="card float-left mt-3 mr-3" style="width: 16rem;">
+            <img class="img-responsive" style="max-width: 20rem;"
+              src="https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="Numerous Screens">
+            <div class="bg-info text-secondary px-3 py-3 text-center">
+              <!-- All links should be functional and point to previous projects.  The image is related to the specific project to create this page, but I expect I'll make changes when refactoring in the future-->
+              <a class="text-white" href="https://davisbradleyj.github.io/code-refactor/">Code Refactor</a>
             </div>
+          </picture>
+
+          <picture class="card float-left mt-3 mr-3" style="width: 16rem;">
+            <img class="img-responsive" style="max-width: 20rem;"
+              src="https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="Numerous Screens">
+            <div class="bg-info text-secondary px-3 py-3 text-center">
+              <a class="text-white" href="#">Responsiveness Portfolio</a>
+            </div>
+          </picture>
+
+          <picture class="card float-left mt-3 mr-3" style="width: 16rem;">
+            <img class="img-responsive" style="max-width: 20rem;"
+              src="https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="Numerous Screens">
+            <div class="bg-info text-secondary px-3 py-3 text-center">
+              <a class="text-white" href="http://davisbradleyj.github.io/Password_Generator">Password Generator</a>
+            </div>
+          </picture>
+
+          <picture class="card float-left mt-3 mr-3" style="width: 16rem;">
+            <img class="img-responsive" style="max-width: 20rem;"
+              src="https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="Numerous Screens">
+            <div class="bg-info text-secondary px-3 py-3 text-center">
+              <a class="text-white" href="http://davisbradleyj.github.io/Code-Quiz">Code Quiz</a>
+            </div>
+          </picture>
+
+          <picture class="card float-left mt-3 mr-3" style="width: 16rem;">
+            <img class="img-responsive" style="max-width: 20rem;"
+              src="https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="Numerous Screens">
+            <div class="bg-info text-secondary px-3 py-3 text-center">
+              <a class="text-white" href="http://davisbradleyj.github.io/Day_Planner">Day Planner</a>
+            </div>
+          </picture>
+
+          <picture class="card float-left mt-3 mr-3" style="width: 16rem;">
+            <img class="img-responsive" style="max-width: 20rem;"
+              src="https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="Numerous Screens">
+            <div class="bg-info text-secondary px-3 py-3 text-center">
+              <a class="text-white" href="http://davisbradleyj.github.io/Weather_Dashboard">Weather Dashboard</a>
+            </div>
+          </picture>
+
         </div>
-    </form>
-    
+      </div>
+    </div>
+  </form>
+
   <!-- See index.html for comments related to footer -->
-  <footer class="navbar d-flex flex-row fixed-bottom navbar-light bg-secondary border-top border-info justify-content-center fborder">
+  <footer
+    class="navbar d-flex flex-row fixed-bottom navbar-light bg-secondary border-top border-info justify-content-center fborder">
     <a href="#"><span class="text-light"><small>Copyright 2020</small></span></a>
   </footer>
-  
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
 </body>
 
 </html>
